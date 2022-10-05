@@ -1,30 +1,12 @@
-main h1{
-    color: red;
+html{
+    color:red;
+    background-color: black;
+    background-image: url(IMG_20210708_070958.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
-h2{
-    color: green;
-}
-p{
-    color: yellowgreen;
-}
-.titulo-aula{
-    text-decoration: underline;
-}
-.texto-azul{
-    color: blue;
-}
-.texto-vermelho{
-    color: red;
-}
-#titulo-primeira-aula{
-    text-decoration: none;
-}
-#titulo-segunda-aula{
-    color: brown;
-}
-.texto-vermelho.comentario{
-    color: green;
-}
-.comentario{
-    color: red;
+main{
+    font-family: sans-serif;
+    font-size: 1.2rem;
 }
