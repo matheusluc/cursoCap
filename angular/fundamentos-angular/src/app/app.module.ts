@@ -7,6 +7,17 @@ import { PrimeiroComponentComponent } from './primeiro-componente/primeiro-compo
 import { SegundoComponentComponent } from './segundo-component/segundo-component.component';
 import { MultiplicaPorPipe } from './multiplica-por.pipe';
 import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.component';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
+import { FormsModule } from '@angular/forms';
+import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServicos1Component } from './exemplo-servicos1/exemplo-servicos1.component';
+import { ExemploServicos2Component } from './exemplo-servicos2/exemplo-servicos2.component';
+import { CicloDeVidaComponent } from './ciclo-de-vida/ciclo-de-vida.component';
+import { CicloDePaiComponent } from './ciclo-de-pai/ciclo-de-pai.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +25,22 @@ import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.co
     PrimeiroComponentComponent,
     SegundoComponentComponent,
     MultiplicaPorPipe,
-    PipeCustomizadoComponent
+    PipeCustomizadoComponent,
+    TwoWayDataBindingComponent,
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
+    ExemploServicos1Component,
+    ExemploServicos2Component,
+    CicloDeVidaComponent,
+    CicloDePaiComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
